@@ -2,12 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\css",
-    "\\js",
-    "\\vendor\\bootstrap",
-    "\\vendor\\bootstrap\\css",
-    "\\vendor\\fontawesome-free",
-    "\\vendor\\fontawesome-free\\css",
-    "\\vendor\\fontawesome-free\\svgs\\solid"
+    "\\js"
   ],
   "SelectedNode": "\\js",
   "PreviewInSolutionExplorer": false

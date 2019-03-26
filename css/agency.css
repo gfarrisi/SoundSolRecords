@@ -50,6 +50,7 @@ section h3.section-subheading {
   font-weight: 400;
   font-style: normal;
   line-height: 200%;
+  color: #fff;
   margin-bottom: 25px;
   margin-left: 25%;
   width: 50%;
@@ -58,8 +59,18 @@ section h3.section-subheading {
 }
 
 
+.about-img {
+    width: 90%;
+    box-shadow: 0 0 1px 1px black;
+    margin-bottom: 0px;
+}
+
+.no-margin{
+    margin-bottom: 0px;
+}
+
 @media (min-width: 768px) {
-  section {
+    section {
     padding: 150px 0;
   }
 }
@@ -104,11 +115,6 @@ img::-moz-selection {
 }
 .welcome-img{
     width:30%;
-}
-.about-img {
-    width: 40%;
-    box-shadow: 0 0 1px 1px black;
-    margin-bottom: 0px;
 }
 
 #mainNav {
@@ -177,6 +183,12 @@ img::-moz-selection {
     font-size: 1.25em;
     padding: 12px 0;
   }
+  
+.about-img {
+    width: 40%;
+    box-shadow: 0 0 1px 1px black;
+    margin-bottom: 0px;
+}
 }
 
 header.masthead {
@@ -210,6 +222,7 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Titillium Web', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
@@ -228,6 +241,12 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: 'Titillium Web',  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
+  
+    .about-img {
+        width: 50%;
+        box-shadow: 0 0 1px 1px black;
+        margin-bottom: 0px;
+    }
 }
 
 .service-heading {
@@ -581,6 +600,13 @@ header.masthead .intro-text .intro-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+
+
+.about-img {
+    width: 40%;
+    box-shadow: 0 0 1px 1px black;
+    margin-bottom: 0px;
+}
 }
 
 .team-member {

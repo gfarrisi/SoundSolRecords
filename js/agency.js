@@ -1,4 +1,19 @@
-(function($) {
+function setCookie(cname, cvalue) {
+    var exdays = 21;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+
+}
+
+window.onload = {
+    function() {
+        setCookie("TEST", "test");
+    }
+}
+
+(function ($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing

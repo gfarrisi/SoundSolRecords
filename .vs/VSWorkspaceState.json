@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
-    "\\js"
+    "\\js",
+    "\\vendor",
+    "\\vendor\\bootstrap",
+    "\\vendor\\bootstrap\\js"
   ],
-  "SelectedNode": "\\js",
+  "SelectedNode": "\\js\\jqBootstrapValidation.js",
   "PreviewInSolutionExplorer": false
 }

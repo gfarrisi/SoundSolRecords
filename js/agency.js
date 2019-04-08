@@ -1,9 +1,45 @@
+//Simple HTML5 Music Player by design1online.com, LLC
 
-var audio = document.getElementById('audio_play');
-var playAudio = function(){  
-    console.log("aduio clicked");
+var currentTrack = null;
+var paused = false;
+
+$(document).ready(function () {
+    //currentTrack = $('#currentTrack').val();
+
+    $("#play").click(function () { play(); });
+    //$("#stop").click(function () { stop(); });
+    //$("#pause").click(function () { pause(); });
+});
+
+function play() {
+    console.log("play")
+    ////set the track back to the beginning
+    //if (!paused) {
+    //    stop();
+    //    currentTrack = $('#currentTrack').val();
+
+    //    //make sure track starts from the begining each time
+    //    document.getElementById(currentTrack).load();
+    //}
+
+    ////play the track
+    //document.getElementById(currentTrack).play();
 }
-document.getElementById('gloria').addEventListener("click", playAudio);
+
+////stop playing the current track
+//function stop() {
+//    if (currentTrack) {
+//        document.getElementById(currentTrack).pause();
+//        paused = false;
+//    }
+//}
+
+////stop the track but don't go back to the beginning
+//function pause() {
+//    paused = true;
+//    document.getElementById(currentTrack).pause();
+}
+
 
 (function ($) {
   "use strict"; // Start of use strict
